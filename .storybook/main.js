@@ -2,6 +2,7 @@ module.exports = {
   stories: ["../src/components/**/*.stories.js"],
   staticDirs: ["../public"],
   addons: [
+    "@storybook/addon-a11y",
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
